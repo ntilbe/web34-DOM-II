@@ -32,7 +32,7 @@ Rockets:
 
  Travelers:
 
-* While a mouse is clicked down on a box, it should move to the right (It should coninuously move, there is no limit on how far it will go).
+* While a mouse is clicked down on a box, it should move to the right (It should continuously move, there is no limit on how far it will go).
 
 ## Stretch Goals
 
