@@ -1,4 +1,5 @@
 // Your code goes here
+
 // Create 10 unique event listeners. Make the site more interactive.
 
 // save the navLinks in a variable
@@ -26,7 +27,7 @@ header.addEventListener('mouseover', changeBC);
 const revertBC = () => {
     if (document.fullscreen) {
         header.style.backgroundColor = "grey";
-    } else header.style.backgroundColor = 'teal';
+    } else header.style.backgroundColor = 'yellow';
 }
 header.addEventListener('mouseout', revertBC);
 
@@ -96,3 +97,4 @@ document.addEventListener("dragstart", (e) => e.target.style.border = '5px solid
 // 10
 // dragend -- remove border when done dragging
 document.addEventListener("dragend", (e) => e.target.style.border = "none");
+
